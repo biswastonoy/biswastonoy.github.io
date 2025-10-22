@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Computer Technology Documentation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    #navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 260px;
+      background-color: #1e1e1e;
+      color: white;
+      padding: 20px;
+      box-sizing: border-box;
+      overflow-y: auto;
+    }
+
+    #navbar header {
+      font-size: 1.3rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+
+    .nav-link {
+      display: block;
+      color: #ccc;
+      text-decoration: none;
+      margin: 10px 0;
+      transition: 0.3s;
+    }
+
+    .nav-link:hover {
+      color: #fff;
+      transform: translateX(3px);
+    }
+
+    #main-doc {
+      margin-left: 280px;
+      padding: 20px;
+    }
+
+    .main-section {
+      margin-bottom: 40px;
+    }
+
+    .main-section header {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #222;
+    }
+
+    code {
+      background: #f4f4f4;
+      padding: 5px 10px;
+      display: block;
+      margin: 10px 0;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    /* ✅ Responsive Design - Media Query */
+    @media (max-width: 768px) {
+      #navbar {
+        position: relative;
+        width: 100%;
+        height: auto;
+        border-bottom: 2px solid #444;
+      }
+
+      #main-doc {
+        margin-left: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <header>Computer Technology Documentation</header>
+    <a class="nav-link" href="#Introduction">Introduction</a>
+    <a class="nav-link" href="#Software_Design">Software Design</a>
+    <a class="nav-link" href="#Automation">Automation</a>
+    <a class="nav-link" href="#AI_and_ML">AI and ML</a>
+    <a class="nav-link" href="#Future_Trends">Future Trends</a>
+  </nav>
+
+  <!-- Main Content -->
+  <main id="main-doc">
+    
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>Computer technology drives almost every aspect of modern life, from communication and education to automation and AI.</p>
+      <p>It includes the study and development of both hardware and software systems that make digital processes possible.</p>
+      <p>Understanding computer technology enables individuals to create efficient, scalable, and secure digital tools.</p>
+      <ul>
+        <li>Hardware</li>
+        <li>Software</li>
+        <li>Networking</li>
+      </ul>
+      <code>console.log("Welcome to Computer Tech!");</code>
+    </section>
+
+    <section class="main-section" id="Software_Design">
+      <header>Software Design</header>
+      <p>Software design is the process of creating a blueprint for a program's structure and behavior.</p>
+      <p>It emphasizes modularity, readability, and maintainability.</p>
+      <p>Good design leads to reliable, scalable, and secure systems.</p>
+      <ul>
+        <li>Modular coding</li>
+        <li>Design patterns</li>
+        <li>Version control</li>
+      </ul>
+      <code>function greetUser(name){ return `Hello, ${name}`; }</code>
+    </section>
+
+    <section class="main-section" id="Automation">
+      <header>Automation</header>
+      <p>Automation uses software and hardware to perform repetitive tasks without human intervention.</p>
+      <p>It boosts productivity and reduces the chance of error.</p>
+      <p>Automation can be implemented in manufacturing, data entry, and software testing.</p>
+      <ul>
+        <li>Task scheduling</li>
+        <li>Robotic process automation (RPA)</li>
+        <li>AI-driven workflows</li>
+      </ul>
+      <code>setInterval(() => console.log("Task Running..."), 1000);</code>
+    </section>
+
+    <section class="main-section" id="AI_and_ML">
+      <header>AI and ML</header>
+      <p>Artificial Intelligence and Machine Learning are transforming industries with smart algorithms.</p>
+      <p>AI can automate reasoning, perception, and decision-making.</p>
+      <p>ML enables systems to learn from data and improve over time.</p>
+      <ul>
+        <li>Neural networks</li>
+        <li>Deep learning</li>
+        <li>Predictive analytics</li>
+      </ul>
+      <code>model.fit(training_data, training_labels, epochs=10)</code>
+    </section>
+
+    <section class="main-section" id="Future_Trends">
+      <header>Future Trends</header>
+      <p>The future of computer technology includes quantum computing, advanced AI, and human-AI collaboration.</p>
+      <p>These innovations will redefine how we live, work, and interact with machines.</p>
+      <p>Keeping up with these changes is crucial for modern technologists.</p>
+      <ul>
+        <li>Quantum Computing</li>
+        <li>Edge AI</li>
+        <li>Cybersecurity evolution</li>
+      </ul>
+      <code>if(future === "AI integration"){ console.log("Get ready for automation!"); }</code>
+    </section>
+
+  </main>
+
+</body>
+</html>
